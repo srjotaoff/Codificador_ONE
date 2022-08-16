@@ -1,0 +1,95 @@
+<!DOCTYPE html5>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Codi#ficador</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+      var texto_entrada = ("");
+      var texto_processado = ("");
+      var texto_saida = ("");
+
+      function oculta_desenho(){
+        if (texto_saida != "") {
+          document.getElementById("sem_nada_para_codificar").style.display = "none";
+        } if (texto_saida == "") {
+          document.getElementById("sem_nada_para_codificar").style.display = "flex";
+        }
+      }
+
+      function criptografar () {
+        texto_entrada = document.getElementById("entrada_texto");
+        texto_processado = texto_entrada.value;
+        texto_processado = texto_processado.replace(/e/gi, "enter");
+        texto_processado = texto_processado.replace(/i/gi, "imes");
+        texto_processado = texto_processado.replace(/a/gi, "ai");
+        texto_processado = texto_processado.replace(/o/gi, "ober");
+        texto_processado = texto_processado.replace(/u/gi, "ufat");
+        texto_saida = texto_processado;
+
+        var resultado = document.getElementById("texto_resultado");
+        resultado.innerText = texto_saida;
+        oculta_desenho();
+      }
+
+      function descriptografar () {
+        texto_entrada = document.getElementById("entrada_texto");
+        texto_processado = texto_entrada.value;
+        texto_processado = texto_processado.replace(/enter/gi, "e");
+        texto_processado = texto_processado.replace(/imes/gi, "i");
+        texto_processado = texto_processado.replace(/ai/gi, "a");
+        texto_processado = texto_processado.replace(/ober/gi, "o");
+        texto_processado = texto_processado.replace(/ufat/gi, "u");
+        texto_saida = texto_processado;
+
+        var resultado = document.getElementById("texto_resultado");
+        resultado.innerText = texto_saida;
+        oculta_desenho();
+      }
+
+      function botao_copiar () {
+        navigator.clipboard.writeText(texto_saida);
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+        <h1>Codi#ficador</h1>
+    </header>
+
+    <main>
+      <form class="codificador">
+        <label for="entrada_texto">Digite seu texto</label>
+        <textarea class="entrada_texto" id="entrada_texto" name="entrada_texto" placeholder="Essa mensagem é secreta..." autofocus required></textarea>
+        <p>Apenas letras minúsculas e sem acento.</p>
+        <div class="botoes_acao">
+          <button onclick="criptografar()" class="botao" type="button" >Criptografar</button>
+          <button onclick="descriptografar()"class="botao" type="button" >Descriptografar</button>
+        </div>
+      </form>
+
+      <div class="resultado_codificador">
+        <h1>Resultado</h1>
+
+        <div class="sem_nada_para_codificar" id="sem_nada_para_codificar">
+          <img src="among_confuso.svg" alt="garota_com_lupa_procurando">
+          <p>Nenhuma mensagem encontrada.</p>
+        </div>
+
+        <div class="resultado_script" id="resultado_script">
+          <textarea class="texto_resultado" id="texto_resultado" readonly></textarea>
+        </div>
+
+        <button onclick="botao_copiar()" type="button">Copiar</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>- Desenvolvido por SrJota - DevOps ONE -</p>
+    </footer>
+  </body>
+</html>
