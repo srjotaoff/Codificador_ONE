@@ -213,6 +213,7 @@ footer > p {
 
   main {
     flex-direction: column;
+    align-items: center;
     height: 80vh
   }
 
@@ -239,6 +240,21 @@ footer > p {
     outline: none;
   }
 
+  .codificador > p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .codificador > .botoes_acao {
+    height: 5vh;
+    width: 80vw;
+    border-radius: 1vh;
+    border: none;
+    font-size: 2vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
   .codificador > .botoes_acao > .botao {
     height: 5vh;
     width: 39vw;
@@ -248,7 +264,7 @@ footer > p {
   }
 
   .resultado_codificador {
-    border: solid #1a1a1a;
+    border: none;
     border-radius: 1vh;
     height: 40vh;
     width: 80vw;
