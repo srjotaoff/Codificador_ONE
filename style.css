@@ -302,9 +302,28 @@ footer > p {
     top: 6vh;
   }
 
+  .resultado_codificador > .resultado_script > .texto_resultado{
+    background: none;
+    max-height: 23vh;
+    max-width: 88%;
+    min-height: 23vh;
+    min-width: 88%;
+    position: absolute;
+    top: 0;
+    line-height: 2.5vh;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 2vh;
+  }
+
   .resultado_codificador > .sem_nada_para_codificar > img {
-    height: 20vh;
-    max-width: 65%;
+    height: 15vh;
     position: relative;
+  }
+
+  .resultado_codificador > .sem_nada_para_codificar > p {
+    font-size: 1.5vh;
+    max-width: 100%;
   }
 }

@@ -26,19 +26,19 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.944"
-     inkscape:cx="328.91949"
-     inkscape:cy="350.63559"
+     inkscape:cx="298.19915"
+     inkscape:cy="351.69492"
      inkscape:current-layer="g725" />
   <defs
      id="defs2">
     <color-profile
        name="sRGB"
        xlink:href="file:///app/share/color/icc/colord/sRGB.icc"
-       id="color-profile926" />
+       id="color-profile746" />
     <color-profile
        name="Apple-RGB"
        xlink:href="file:///app/share/color/icc/colord/AppleRGB.icc"
-       id="color-profile928" />
+       id="color-profile748" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath1807">
@@ -1938,45 +1938,58 @@
            id="path918-1-1-7"
            sodipodi:nodetypes="sssss" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:26.2292px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;stroke-dasharray:none;paint-order:stroke fill markers;stroke-opacity:1"
-         x="130.82234"
-         y="70.448135"
-         id="text1308"
-         transform="scale(0.91738174,1.0900588)"><tspan
-           sodipodi:role="line"
-           id="tspan1306"
-           style="stroke-width:7.9375;stroke-dasharray:none;stroke:#0d0d0d;stroke-opacity:1"
-           x="130.82234"
-           y="70.448135">oxe</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;stroke-dasharray:none;paint-order:stroke fill markers;stroke-opacity:1"
-         x="112.81019"
-         y="104.38152"
-         id="text1312"><tspan
-           sodipodi:role="line"
-           id="tspan1310"
-           style="stroke-width:7.9375;stroke-dasharray:none;stroke:#0d0d0d;stroke-opacity:1"
-           x="112.81019"
-           y="104.38152">kde?</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;stroke-dasharray:none;paint-order:stroke fill markers;stroke-opacity:1"
-         x="77.91024"
-         y="167.69872"
-         id="text8100"><tspan
-           sodipodi:role="line"
-           id="tspan8098"
-           style="stroke-width:7.9375;stroke-dasharray:none;stroke:#0d0d0d;stroke-opacity:1"
-           x="77.91024"
-           y="167.69872">sei</tspan><tspan
-           sodipodi:role="line"
-           style="stroke-width:7.9375;stroke-dasharray:none;stroke:#0d0d0d;stroke-opacity:1"
-           x="77.91024"
-           y="188.58171"
-           id="tspan11222"> nao</tspan></text>
+      <path
+         d="m 122.36385,65.624106 h 2.34982 V 62.83198 h 9.39929 v 2.792126 h 2.34983 v 8.376378 h -2.34983 v 2.792126 h -9.39929 v -2.792126 h -2.34982 z m 4.69965,0 v 8.376378 h 4.69964 v -8.376378 z"
+         id="path712"
+         style="font-size:26.2292px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 141.16244,74.000484 h 2.34981 v -2.792126 h 2.34983 v -2.792127 h -2.34983 v -2.792125 h -2.34981 V 62.83198 h 4.69964 v 2.792126 h 4.69965 V 62.83198 h 4.69964 v 2.792126 h -2.34981 v 2.792125 h -2.34983 v 2.792127 h 2.34983 v 2.792126 h 2.34981 v 2.792126 h -4.69964 v -2.792126 h -4.69965 v 2.792126 h -4.69964 z"
+         id="path714"
+         style="font-size:26.2292px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 159.96102,65.624106 h 2.34983 V 62.83198 h 9.39929 v 2.792126 h 2.34982 v 5.584252 h -9.39929 v 2.792126 h 7.04947 v 2.792126 h -9.39929 v -2.792126 h -2.34983 z m 4.69965,0 v 2.792125 h 4.69964 v -2.792125 z"
+         id="path716"
+         style="font-size:26.2292px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 114.44167,92.961133 h 3.26297 v 6.525937 h 1.63149 v -1.631484 h 3.26296 v 1.631484 h -1.63148 v 1.63148 h 1.63148 v 1.63149 h 1.63149 v 1.63148 h -3.26297 v -1.63148 h -1.63148 v -1.63149 h -1.63149 v 3.26297 h -3.26297 z"
+         id="path703"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 137.28245,104.38152 h -8.15742 v -1.63148 h -1.63148 v -3.26297 h 1.63148 v -1.631484 h 4.89446 v -3.262969 h 3.26296 z m -6.52593,-4.89445 v 3.26297 h 3.26297 v -3.26297 z"
+         id="path705"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 140.54542,97.855586 h 1.63149 v -1.631485 h 6.52593 v 1.631485 h 1.63149 v 3.262964 h -6.52594 v 1.63149 h 4.89445 v 1.63148 h -6.52593 v -1.63148 h -1.63149 z m 3.26297,0 v 1.631484 h 3.26297 v -1.631484 z"
+         id="path707"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 153.5973,94.592617 h 1.63148 v -1.631484 h 6.52594 v 1.631484 h 1.63148 v 3.262969 h -1.63148 v 1.631484 h -1.63149 v 1.63148 h -3.26296 v -1.63148 h 1.63148 v -1.631484 h 1.63148 v -3.262969 h -3.26296 v 1.631484 h -3.26297 z m 3.26297,8.157423 h 3.26296 v 1.63148 h -3.26296 z"
+         id="path709"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 79.541725,166.06723 h 6.525937 v -1.63148 h -4.894453 v -1.63149 h -1.631484 v -1.63148 h 1.631484 v -1.63149 h 8.157422 v 1.63149 h -6.525938 v 1.63148 h 4.894453 v 1.63149 h 1.631485 v 1.63148 h -1.631485 v 1.63149 h -8.157421 z"
+         id="path719"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 92.5936,161.17278 h 1.631484 v -1.63149 h 6.525936 v 1.63149 h 1.63149 v 3.26297 h -6.525942 v 1.63148 h 4.894452 v 1.63149 h -6.525936 v -1.63149 H 92.5936 Z m 3.262968,0 v 1.63148 h 3.262969 v -1.63148 z"
+         id="path721"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 108.90844,161.17278 h -1.63148 v -1.63149 h 4.89445 v 6.52594 h 1.63149 v 1.63149 h -6.52594 v -1.63149 h 1.63148 z m 0,-4.89446 h 3.26297 v 1.63149 h -3.26297 z"
+         id="path723"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 92.5936,180.42429 h 8.15742 v 1.63149 h 1.63149 v 6.52594 h -3.262973 v -6.52594 h -3.262969 v 6.52594 H 92.5936 Z"
+         id="path725"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 105.64547,185.31875 h 1.63149 v -1.63149 h 4.89445 v -1.63148 h -4.89445 v -1.63149 h 6.52594 v 1.63149 h 1.63148 v 6.52594 h -8.15742 v -1.63149 h -1.63149 z m 3.26297,0 v 1.63148 h 3.26297 v -1.63148 z"
+         id="path727"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
+      <path
+         d="m 118.69735,182.05578 h 1.63148 v -1.63149 h 6.52594 v 1.63149 h 1.63149 v 4.89445 h -1.63149 v 1.63149 h -6.52594 v -1.63149 h -1.63148 z m 3.26297,0 v 4.89445 h 3.26297 v -4.89445 z"
+         id="path729"
+         style="font-size:16.7064px;font-family:'Commodore 64';-inkscape-font-specification:'Commodore 64, Normal';fill:#ffffff;stroke:#0d0d0d;stroke-width:7.9375;paint-order:stroke fill markers" />
     </g>
   </g>
 </svg>
