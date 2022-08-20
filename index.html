@@ -24,11 +24,7 @@
       function criptografar () {
         texto_entrada = document.getElementById("entrada_texto");
         texto_processado = texto_entrada.value;
-        texto_processado = texto_processado.replace(/e/gi, "enter");
-        texto_processado = texto_processado.replace(/i/gi, "imes");
-        texto_processado = texto_processado.replace(/a/gi, "ai");
-        texto_processado = texto_processado.replace(/o/gi, "ober");
-        texto_processado = texto_processado.replace(/u/gi, "ufat");
+        texto_processado = texto_processado.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
         texto_saida = texto_processado;
 
         var resultado = document.getElementById("texto_resultado");
@@ -39,11 +35,7 @@
       function descriptografar () {
         texto_entrada = document.getElementById("entrada_texto");
         texto_processado = texto_entrada.value;
-        texto_processado = texto_processado.replace(/enter/gi, "e");
-        texto_processado = texto_processado.replace(/imes/gi, "i");
-        texto_processado = texto_processado.replace(/ai/gi, "a");
-        texto_processado = texto_processado.replace(/ober/gi, "o");
-        texto_processado = texto_processado.replace(/ufat/gi, "u");
+        texto_processado = texto_processado.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
         texto_saida = texto_processado;
 
         var resultado = document.getElementById("texto_resultado");
